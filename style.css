@@ -190,9 +190,6 @@ label {
         display: flex;
         flex-wrap: wrap;
         height: 100%;
-        
-
-        
     }
 
     .logo {
@@ -200,9 +197,9 @@ label {
     }
 
     .menu  {
-        display: flex;  
-        
-    
+        display: flex; 
+        flex-wrap: wrap;
+        padding-right: 30px;
     }
 
     .wallpaperdogg {
@@ -228,5 +225,6 @@ label {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 20px;
     }
 }
